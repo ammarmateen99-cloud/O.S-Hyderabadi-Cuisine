@@ -1,5 +1,4 @@
-  <!-- About Section -->
-  <section id="about">
+<section id="about">
     <h2>About Us</h2>
     <p>
       O.S Hyderabadi Cuisine brings you the true taste of Hyderabadi and Mughlai food.
