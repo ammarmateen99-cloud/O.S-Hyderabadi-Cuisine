@@ -1,5 +1,3 @@
-</header>
-
   <!-- About Section -->
   <section id="about">
     <h2>About Us</h2>
