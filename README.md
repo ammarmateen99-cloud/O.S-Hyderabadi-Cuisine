@@ -28,4 +28,3 @@ h1{background:#8b0000;color:white;padding:15px;text-align:center}
 
 </body>
 </html>
-Update index.html
