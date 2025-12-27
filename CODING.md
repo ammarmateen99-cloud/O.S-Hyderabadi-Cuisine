@@ -6,8 +6,6 @@
 
 </div>
 
-
-
 <section id="about">
 
 &nbsp; <h3>About Us</h3>
@@ -23,7 +21,6 @@
 &nbsp; </p>
 
 </section>
-
 
 
 <section id="menu">
@@ -52,8 +49,6 @@
 
 </section>
 
-
-
 <section id="contact">
 
 &nbsp; <h3>Contact Us</h3>
@@ -68,8 +63,6 @@
 
 </section>
 
-
-
 <footer>
 
 &nbsp; <p>© O.S Hyderabadi Cuisine | South Khobar</p>
@@ -77,9 +70,7 @@
 </footer>
 
 
-
 <a class="whatsapp" href="https://wa.me/">WhatsApp Order</a>
-
 
 
 </body>
