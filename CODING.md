@@ -1,85 +1,76 @@
-<div class="hero" id="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O.S Hyderabadi Cuisine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-&nbsp; <h2>Authentic Hyderabadi \& Mughlai Cuisine</h2>
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <h2>Authentic Hyderabadi & Mughlai Cuisine</h2>
+    <p>Royal flavours • Traditional recipes • Freshly prepared</p>
+  </header>
 
-&nbsp; <p>Royal flavours • Traditional recipes • Freshly prepared</p>
+  <!-- About Section -->
+  <section id="about">
+    <h3>About Us</h3>
+    <p>
+      O.S Hyderabadi Cuisine brings you the true taste of Hyderabadi and Mughlai food.
+      Inspired by royal kitchens, our dishes are slow-cooked with authentic spices
+      to deliver rich flavour and unforgettable taste.
+    </p>
+  </section>
 
-</div>
+  <!-- Menu Section -->
+  <section id="menu">
+    <h3>Our Menu</h3>
+    <div class="menu">
 
-<section id="about">
+      <div class="menu-card">
+        <h4>Mutton Specialties</h4>
+        <ul>
+          <li>Mutton Talawa</li>
+          <li>Mutton Hari Mirchi</li>
+          <li>Mutton Kali Mirchi</li>
+          <li>Mutton Bhunawa</li>
+          <li>Mutton Badami</li>
+          <li>Mutton Punjabi</li>
+          <li>Mutton Masala</li>
+          <li>Mutton Zafrani</li>
+          <li>Mutton Bhendi</li>
+        </ul>
+      </div>
 
-&nbsp; <h3>About Us</h3>
+      <div class="menu-card">
+        <h4>Chicken Specialties</h4>
+        <ul>
+          <li>Chicken Lagan</li>
+          <li>Chicken Rogan</li>
+          <li>Chicken Schezwan</li>
+          <li>Chicken Tandoori Masala</li>
+        </ul>
+      </div>
 
-&nbsp; <p>
+    </div>
+  </section>
 
-&nbsp;   O.S Hyderabadi Cuisine brings you the true taste of Hyderabadi and Mughlai food.
+  <!-- Contact Section -->
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <p>
+      📍 76G6+WG7, Second Street, South Khobar, Khobar 34611<br>
+      📞 Call or WhatsApp for orders
+    </p>
+    <a class="whatsapp" href="https://wa.me/966123456789">WhatsApp Order</a>
+  </section>
 
-&nbsp;   Inspired by royal kitchens, our dishes are slow-cooked with authentic spices
-
-&nbsp;   to deliver rich flavour and unforgettable taste.
-
-&nbsp; </p>
-
-</section>
-
-
-<section id="menu">
-
-&nbsp; <h3>Our Menu</h3>
-
-&nbsp; <div class="menu">
-
-&nbsp;   <div class="menu-card">
-
-&nbsp;     <h4>Mutton Specialties</h4>
-
-&nbsp;     <p>Mutton Talawa<br>Mutton Hari Mirchi<br>Mutton Kali Mirchi<br>Mutton Bhunawa<br>Mutton Badami<br>Mutton Punjabi<br>Mutton Masala<br>Mutton Zafrani<br>Mutton Bhendi</p>
-
-&nbsp;   </div>
-
-&nbsp;   <div class="menu-card">
-
-&nbsp;     <h4>Chicken Specialties</h4>
-
-&nbsp;     <p>Chicken Lagan<br>Chicken Rogan<br>Chicken Schezwan<br>Chicken Tandoori Masala</p>
-
-&nbsp;   </div>
-
-&nbsp; </div>
-
-</section>
-
-<section id="contact">
-
-&nbsp; <h3>Contact Us</h3>
-
-&nbsp; <p>
-
-&nbsp;   📍 76G6+WG7, Second Street, South Khobar, Khobar 34611<br><br>
-
-&nbsp;   📞 Call or WhatsApp for orders
-
-&nbsp; </p>
-
-</section>
-
-<footer>
-
-&nbsp; <p>© O.S Hyderabadi Cuisine | South Khobar</p>
-
-</footer>
-
-
-<a class="whatsapp" href="https://wa.me/">WhatsApp Order</a>
-
+  <!-- Footer -->
+  <footer>
+    <p>© O.S Hyderabadi Cuisine | South Khobar</p>
+  </footer>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
