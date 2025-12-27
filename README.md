@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>O.S Hyderabadi Cuisine</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* General Styles */
     body {
       font-family: 'Roboto', Arial, sans-serif;
-      background: #f5f5f5;
       margin: 0;
+      background: #f5f5f5;
       color: #333;
     }
-    a { text-decoration: none; }
 
-    /* Header / Hero */
+    /* Hero Section */
     header {
-      background: #8b0000;
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
       color: white;
-      padding: 40px 20px;
       text-align: center;
+      padding: 80px 20px;
+      position: relative;
     }
-    header h1 {
+    header::after {
+      content: "";
+      position: absolute;
+      left:0; top:0;
+      width:100%; height:100%;
+      background: rgba(0,0,0,0.5);
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
       margin: 0;
-      font-size: 2.5em;
     }
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
+    header h1 { font-size: 3em; }
+    header p { font-size: 1.5em; margin-top: 10px; }
 
     /* Sections */
-    section {
-      padding: 30px 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    section h2, section h3 {
-      color: #8b0000;
-      margin-bottom: 15px;
-    }
-    p {
-      line-height: 1.6;
-    }
+    section { padding: 50px 20px; max-width: 1000px; margin: 0 auto; }
+    section h2 { color: #8b0000; margin-bottom: 20px; text-align: center; }
+    p { line-height: 1.6; text-align: center; }
 
-    /* Menu */
-    .menu-category {
-      margin-bottom: 30px;
+    /* Menu Cards */
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
     }
-    .menu-category h3 {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-    }
-    .menu-category ul {
-      list-style: none;
-      padding: 0;
-    }
-    .menu-category li {
+    .menu-card {
       background: white;
-      padding: 12px 15px;
-      margin-bottom: 8px;
-      border-radius: 5px;
-      border: 1px solid #ddd;
-      transition: background 0.3s;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
     }
-    .menu-category li:hover {
-      background: #ffe5e5;
+    .menu-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .menu-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .menu-card h3 {
+      margin: 15px 0 10px 0;
+      color: #8b0000;
+    }
+    .menu-card p {
+      padding: 0 15px 15px 15px;
+      font-size: 16px;
     }
 
     /* WhatsApp Button */
     .whatsapp-btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
+      margin-top: 30px;
+      padding: 15px 30px;
       background: #25D366;
       color: white;
       font-weight: bold;
-      border-radius: 5px;
+      border-radius: 8px;
+      font-size: 18px;
       transition: background 0.3s;
     }
-    .whatsapp-btn:hover {
-      background: #1ebe5d;
-    }
+    .whatsapp-btn:hover { background: #1ebe5d; }
 
     /* Footer */
     footer {
-      text-align: center;
-      padding: 20px;
       background: #333;
       color: white;
+      text-align: center;
+      padding: 20px;
       margin-top: 40px;
     }
 
     /* Responsive */
-    @media (max-width: 600px) {
+    @media (max-width:600px){
       header h1 { font-size: 2em; }
-      header p { font-size: 1em; }
+      header p { font-size: 1.2em; }
     }
   </style>
 </head>
@@ -119,42 +126,39 @@
   <!-- Menu Section -->
   <section id="menu">
     <h2>Our Menu</h2>
+    <div class="menu-grid">
 
-    <div class="menu-category">
-      <h3>Mutton Specialties</h3>
-      <ul>
-        <li>Mutton Talawa</li>
-        <li>Mutton Hari Mirchi</li>
-        <li>Mutton Kali Mirchi</li>
-        <li>Mutton Bhunawa</li>
-        <li>Mutton Badami</li>
-        <li>Mutton Punjabi</li>
-        <li>Mutton Masala</li>
-        <li>Mutton Zafrani</li>
-        <li>Mutton Bhendi</li>
-      </ul>
+      <!-- Mutton -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=500&q=80" alt="Mutton Talawa">
+        <h3>Mutton Talawa</h3>
+        <p>Delicately spiced and slow-cooked to perfection.</p>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1617196031911-1ecb3e86c998?auto=format&fit=crop&w=500&q=80" alt="Mutton Hari Mirchi">
+        <h3>Mutton Hari Mirchi</h3>
+        <p>Spicy green chili marinated mutton with royal taste.</p>
+      </div>
+
+      <!-- Chicken -->
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1589308078055-f0e5030b0d7c?auto=format&fit=crop&w=500&q=80" alt="Chicken Lagan">
+        <h3>Chicken Lagan</h3>
+        <p>Rich, creamy chicken curry infused with traditional spices.</p>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600718377425-9b55a5a27b87?auto=format&fit=crop&w=500&q=80" alt="Chicken Rogan">
+        <h3>Chicken Rogan</h3>
+        <p>Classic rogan josh style chicken cooked to perfection.</p>
+      </div>
+
     </div>
 
-    <div class="menu-category">
-      <h3>Chicken Specialties</h3>
-      <ul>
-        <li>Chicken Lagan</li>
-        <li>Chicken Rogan</li>
-        <li>Chicken Schezwan</li>
-        <li>Chicken Tandoori Masala</li>
-      </ul>
+    <div style="text-align:center;">
+      <a class="whatsapp-btn" href="https://wa.me/966123456789" target="_blank">Order on WhatsApp</a>
     </div>
-
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>
-      📍 76G6+WG7, Second Street, South Khobar, Khobar 34611<br>
-      📞 Call or WhatsApp for orders
-    </p>
-    <a class="whatsapp-btn" href="https://wa.me/966123456789" target="_blank">Order on WhatsApp</a>
   </section>
 
   <!-- Footer -->
