@@ -74,7 +74,7 @@
   <header role="banner" aria-label="O.S Hyderabadi Cuisine hero">
     <div class="overlay" aria-hidden="true"></div>
     <div class="hero-inner">
-      <h1>O.S Hyderabadi Cuisine</h1>
+    
       <p>Authentic Hyderabadi & Mughlai Flavours — South Khobar</p>
     </div>
   </header>
