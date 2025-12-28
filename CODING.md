@@ -124,7 +124,7 @@
       </div>
 
       <div class="actions" aria-hidden="false">
-        <!-- WhatsApp: ensure international number is correct (example uses +966). Use wa.me with no symbols/spaces -->
+        <!-- WhatsApp: ensure international number is correct (example uses +966558696462). Use wa.me with no symbols/spaces -->
         <a class="whatsapp-btn" href="https://wa.me/966123456789" target="\_blank" rel="noopener noreferrer" aria-label="Order on WhatsApp">Order on WhatsApp</a>
       </div>
     </section>
