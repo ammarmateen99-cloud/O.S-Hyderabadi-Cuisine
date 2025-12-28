@@ -4,30 +4,7 @@
     <p>Mughlai • Indian</p>
 </header>
 
-<style>
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #7a1f1f;
-    color: white;
-    padding: 20px;
-}
-
-header img {
-    margin-bottom: 10px;
-    border-radius: 10px; /* optional rounded corners */
-}
-header h1 {
-    margin: 5px 0 0;
-    font-size: 36px;
-}
-header p {
-    margin: 5px 0 0;
-    font-size: 16px;
-}
 </style>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
