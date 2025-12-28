@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+  
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="O.S Hyderabadi Cuisine — Authentic Hyderabadi & Mughlai flavours. Slow-cooked dishes using traditional spices for a royal taste." />
