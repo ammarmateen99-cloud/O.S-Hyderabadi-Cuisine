@@ -1,3 +1,32 @@
+<header>
+    <img src="c9fc3020-e629-4179-b645-0fde25f449f2.png" alt="O.S Hyderabadi Cuisine Logo" style="height:100px; margin-bottom:10px;">
+    <h1>O.S Hyderabadi Cuisine</h1>
+    <p>Mughlai • Indian</p>
+</header>
+
+<style>
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7a1f1f;
+    color: white;
+    padding: 20px;
+}
+
+header img {
+    margin-bottom: 10px;
+    border-radius: 10px; /* optional rounded corners */
+}
+header h1 {
+    margin: 5px 0 0;
+    font-size: 36px;
+}
+header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+</style>
 <!DOCTYPE html>
 <html lang="en">
 <head>
