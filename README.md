@@ -1,78 +1,81 @@
-<header>
-    <img src="c9fc3020-e629-4179-b645-0fde25f449f2.png" alt="O.S Hyderabadi Cuisine Logo" style="height:100px; margin-bottom:10px;">
-    <h1>O.S Hyderabadi Cuisine</h1>
-    <p>Mughlai • Indian</p>
-</header>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>O.S Hyderabadi Cuisine</title>
+    <meta charset="UTF-8">
+    <title>O.S Hyderabadi Cuisine</title>
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff8f0;
-    color: #333;
-}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+        }
 
-header {
-    background-color: #7a1f1f;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+        header {
+            background-color: #7a1f1f;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
 
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
+        header img {
+            height: 110px;
+            margin-bottom: 10px;
+        }
 
-header p {
-    margin: 5px 0 0;
-    font-size: 16px;
-}
+        header h1 {
+            margin: 5px 0;
+            font-size: 36px;
+        }
 
-.menu {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-}
+        header p {
+            margin: 0;
+            font-size: 16px;
+        }
 
-.section {
-    margin-bottom: 30px;
-}
+        .menu {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
 
-.section h2 {
-    background-color: #7a1f1f;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
+        .section {
+            margin-bottom: 30px;
+        }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+        .section h2 {
+            background-color: #7a1f1f;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
 
-ul li {
-    padding: 8px 0;
-    border-bottom: 1px dotted #ccc;
-    font-size: 18px;
-}
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-footer {
-    background-color: #7a1f1f;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-</style>
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px dotted #ccc;
+            font-size: 18px;
+        }
 
+        footer {
+            background-color: #7a1f1f;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
+    <img src="c9fc3020-e629-4179-b645-0fde25f449f2.png" alt="O.S Hyderabadi Cuisine Logo">
     <h1>O.S Hyderabadi Cuisine</h1>
     <p>Mughlai • Indian</p>
 </header>
@@ -124,15 +127,6 @@ footer {
             <li>Butter Roti</li>
             <li>Plain Naan</li>
             <li>Butter Naan</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>🥗 Extras</h2>
-        <ul>
-            <li>Raita</li>
-            <li>Salad</li>
-            <li>Extra Gravy</li>
         </ul>
     </div>
 
