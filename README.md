@@ -2,7 +2,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>O.S Hyderabadi Cuisine</title>
   <meta name="description" content="O.S Hyderabadi Cuisine — Authentic Hyderabadi & Mughlai flavours. Slow-cooked dishes using traditional spices for a royal taste." />
   <!-- Open Graph / Social -->
   <meta property="og:title" content="O.S Hyderabadi Cuisine" />
