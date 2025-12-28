@@ -4,13 +4,11 @@
     <p>Mughlai • Indian</p>
 </header>
 
-</style>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>O.S Hyderabadi Cuisine</title>
 
-<style>
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
